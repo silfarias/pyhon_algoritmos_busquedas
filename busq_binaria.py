@@ -20,7 +20,8 @@ def busq_binaria(lista, valor):
 # ejemplos de listas para las pruebas
 listas_prueba = [
     (list(range(100000001)),9999999),
-    (sorted([34, 23, 5, 78, 2, 13, 42, 79, 56, 43, 66, 21, 33, 98, 0, 4]), 66) # odenamos la lista
+    (sorted([34, 23, 5, 78, 2, 13, 42, 79, 56, 43, 66, 21, 33, 98, 0, 4]), 66), # odenamos la lista
+    [(1, 4, 7, 8, 9, 12, 14, 17, 19, 21, 23, 24, 33, 36, 40), 23]
 ]
 
 def medir_tiempo_recursos():
